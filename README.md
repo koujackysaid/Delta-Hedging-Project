@@ -1,4 +1,4 @@
 # Delta-Hedging-Project
-- Create Simulation of delta hedging scenario. Holding a call option for a month, and attribute the source of pnl
+- Simulated holding a call option of AAPL for a month, and Delta hedged it. Daily mark to market to record the price and implied volatility. Explained option P&L and Delta hedge P&L by Greeks. Observed the impact of the path dependency of $Gamma in option trading
+- Applied Black Scholes Model to build up the price and Greeks formula in VBA. Utilized Python to explore further Greeks hedging (Delta, Gamma, Vega) by applying math and scipy to create a European Options class based on Black Scholes Model to enhance the efficiency and tidiness of operations. Also applied the linalg modules of numpy to calculate the inversed matrix of Greeks to get the required weightings of hedging assets
 - Compare the impact of realized volatility on the final pnl given condition rv> model iv, rv = model iv, and rv<model iv
-- conduct dynamic hedge in Python, hedge Gamma and Vega first, then Delta, applying basic matrix multiplication
